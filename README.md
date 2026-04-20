@@ -15,6 +15,19 @@ This project demonstrates how to build an **agentic system** where a Large Langu
 
 The agent follows a **ReAct-style loop (Reason → Act → Observe)** using LangGraph.
 
+User Question
+   ↓
+LLM (Reason)
+   ↓
+Tool needed?
+   ├── YES → Tool Call (Act)
+   │         ↓
+   │      Tool Result (Observe)
+   │         ↓
+   │      LLM again (Reason)
+   │
+   └── NO → Final Answer
+
 ---
 
 ## Features
