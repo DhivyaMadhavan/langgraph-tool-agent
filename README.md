@@ -133,11 +133,6 @@ export LANGCHAIN_PROJECT=langgraph-tool-agent
 
 ---
 
-### 5. Run the agent
-
-```bash
-python main.py
-```
 
 ---
 
